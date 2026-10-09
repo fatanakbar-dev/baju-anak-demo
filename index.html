@@ -3,20 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Si Kecil — Brand Baju Anak Indonesia</title>
+<title>Si Kecil: Brand Baju Anak Indonesia</title>
 <meta name="description" content="Si Kecil menghadirkan koleksi baju anak berkualitas premium. Bahan lembut, aman untuk kulit sensitif, desain ceria untuk si kecil tercinta.">
-<link rel="canonical" href="https://bajuanak.fatanakbar.my.id/">
+<link rel="canonical" href="https://demo.ahliwebmurah.my.id/">
 <meta name="theme-color" content="#FFF8F0">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Si Kecil">
-<meta property="og:title" content="Si Kecil — Brand Baju Anak Indonesia">
+<meta property="og:title" content="Si Kecil: Brand Baju Anak Indonesia">
 <meta property="og:description" content="Koleksi baju anak berkualitas premium: bahan lembut, aman untuk kulit sensitif, desain ceria untuk si kecil tercinta.">
-<meta property="og:url" content="https://bajuanak.fatanakbar.my.id/">
-<meta property="og:image" content="https://bajuanak.fatanakbar.my.id/assets/hero.jpg">
+<meta property="og:url" content="https://demo.ahliwebmurah.my.id/">
+<meta property="og:image" content="https://demo.ahliwebmurah.my.id/assets/hero.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Si Kecil — Brand Baju Anak Indonesia">
+<meta name="twitter:title" content="Si Kecil: Brand Baju Anak Indonesia">
 <meta name="twitter:description" content="Koleksi baju anak berkualitas premium: bahan lembut, aman untuk kulit sensitif, desain ceria untuk si kecil tercinta.">
-<meta name="twitter:image" content="https://bajuanak.fatanakbar.my.id/assets/hero.jpg">
+<meta name="twitter:image" content="https://demo.ahliwebmurah.my.id/assets/hero.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23E0704B'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>S</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -25,7 +26,7 @@
   --cream:#FFF8F0; --cream2:#FFF1E2;
   --ink:#43302B; --ink-soft:#7A5C52;
   --coral:#E0704B; --coral-dark:#C85A36;
-  --sun:#FFC53D; --pink:#FFE3D6; --sage:#8FBC8F;
+  --sun:#FFC53D; --pink:#FFE3D6;
   --white:#ffffff; --radius:24px;
   --shadow:0 12px 32px rgba(224,112,75,.14);
 }
@@ -44,12 +45,11 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,248,240,
 nav.scrolled{box-shadow:0 6px 24px rgba(67,48,43,.08)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
 .logo{font-family:'Baloo 2',cursive;font-size:1.6rem;font-weight:800;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:10px}
-.logo .dot{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--coral),var(--sun));display:inline-flex;align-items:center;justify-content:center;font-size:1.1rem}
-
+.logo .dot{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,var(--coral),var(--sun));display:inline-flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:1.1rem}
 .nav-links{display:flex;gap:30px;list-style:none}
 .nav-links a{text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem;transition:color .2s}
 .nav-links a:hover{color:var(--coral)}
-.btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:999px;padding:14px 30px;transition:transform .2s,box-shadow .2s;font-size:1rem}
+.btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:999px;padding:14px 30px;transition:transform .2s,box-shadow .2s,background .2s;font-size:1rem}
 .btn-coral{background:var(--coral);color:#fff;box-shadow:0 8px 20px rgba(224,112,75,.35)}
 .btn-coral:hover{background:var(--coral-dark);transform:translateY(-2px)}
 .btn-outline{background:#fff;color:var(--coral);border:2px solid var(--coral)}
@@ -74,10 +74,10 @@ nav.scrolled{box-shadow:0 6px 24px rgba(67,48,43,.08)}
 .hero-img-wrap{position:relative}
 .hero-img{border-radius:32px;box-shadow:0 24px 60px rgba(67,48,43,.18);transform:rotate(2deg);width:100%;height:480px;object-fit:cover}
 .float-card{position:absolute;background:#fff;border-radius:18px;box-shadow:var(--shadow);padding:14px 18px;display:flex;align-items:center;gap:12px;font-weight:700;font-size:.92rem}
-.float-card .ic{font-size:1.5rem}
-.fc1{top:36px;left:-30px;animation:float 4s ease-in-out infinite}
-.fc2{bottom:44px;right:-16px;animation:float 5s ease-in-out infinite reverse}
-@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.float-card .tick{flex:none;width:30px;height:30px;border-radius:50%;background:var(--pink);color:var(--coral-dark);display:inline-flex;align-items:center;justify-content:center;font-weight:800}
+.float-card .stars{color:var(--sun);letter-spacing:1px}
+.fc1{top:36px;left:-30px}
+.fc2{bottom:44px;right:-16px}
 /* TENTANG */
 .about{background:var(--white)}
 .about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:60px;align-items:center}
@@ -85,24 +85,25 @@ nav.scrolled{box-shadow:0 6px 24px rgba(67,48,43,.08)}
 .about p{color:var(--ink-soft);margin-bottom:16px}
 .check-list{list-style:none;margin-top:22px;display:grid;gap:12px}
 .check-list li{display:flex;gap:12px;align-items:flex-start;font-weight:600}
-.check-list .ck{flex:none;width:26px;height:26px;border-radius:50%;background:#E8F5E9;color:#2E7D32;display:inline-flex;align-items:center;justify-content:center;font-weight:800}
-/* KEUNGGULAN */
-.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
-.feature{background:#fff;border-radius:var(--radius);padding:34px 28px;box-shadow:var(--shadow);transition:transform .25s;border-top:5px solid transparent}
-.feature:hover{transform:translateY(-8px);border-top-color:var(--coral)}
-.feature .fic{font-size:2.4rem;margin-bottom:14px}
-.feature h3{font-size:1.25rem;margin-bottom:10px}
-.feature p{color:var(--ink-soft);font-size:.96rem}
-/* KOLEKSI */
-.collection{background:var(--cream2)}
-.coll-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;margin-top:44px}
-.coll-card{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);transition:transform .25s}
-.coll-card:hover{transform:translateY(-6px)}
-.coll-card img{height:300px;width:100%;object-fit:cover}
-.coll-body{padding:26px 28px}
-.coll-body h3{font-size:1.35rem;margin-bottom:8px}
-.coll-body p{color:var(--ink-soft);font-size:.96rem;margin-bottom:16px}
-.coll-tag{display:inline-block;background:var(--pink);color:var(--coral-dark);font-size:.78rem;font-weight:700;padding:5px 14px;border-radius:999px;margin-bottom:12px}
+.check-list .ck{flex:none;width:26px;height:26px;border-radius:50%;background:var(--pink);color:var(--coral-dark);display:inline-flex;align-items:center;justify-content:center;font-weight:800}
+/* KEUNGGULAN: editorial numbered list */
+.edge-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;margin-top:8px;align-items:start}
+.edge-head{position:sticky;top:110px}
+.edge-list{list-style:none}
+.edge-list li{display:grid;grid-template-columns:64px 1fr;gap:20px;padding:26px 0;border-bottom:2px dashed rgba(224,112,75,.25)}
+.edge-list li:last-child{border-bottom:none}
+.edge-num{font-family:'Baloo 2';font-weight:800;font-size:1.6rem;color:var(--coral);background:var(--pink);width:64px;height:64px;border-radius:20px;display:flex;align-items:center;justify-content:center}
+.edge-list h3{font-size:1.2rem;margin-bottom:6px}
+.edge-list p{color:var(--ink-soft);font-size:.95rem}
+/* KOLEKSI: alternating lookbook rows */
+.look-row{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:40px;background:#fff;border-radius:28px;overflow:hidden;box-shadow:var(--shadow)}
+.look-row.flip .look-img{order:2}
+.look-img{height:340px;object-fit:cover;width:100%}
+.look-body{padding:44px 44px;display:flex;flex-direction:column;justify-content:center}
+.look-tag{display:inline-block;background:var(--pink);color:var(--coral-dark);font-size:.78rem;font-weight:700;padding:5px 14px;border-radius:999px;margin-bottom:14px;align-self:flex-start}
+.look-body h3{font-size:1.6rem;margin-bottom:10px}
+.look-body p{color:var(--ink-soft);margin-bottom:22px}
+.look-body .btn{align-self:flex-start}
 /* TESTIMONI */
 .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
 .testi{background:#fff;border-radius:var(--radius);padding:32px 28px;box-shadow:var(--shadow);position:relative}
@@ -117,8 +118,9 @@ nav.scrolled{box-shadow:0 6px 24px rgba(67,48,43,.08)}
 .contact h2{color:#fff;font-size:clamp(1.8rem,4vw,2.7rem);margin-bottom:14px}
 .contact p{opacity:.92;max-width:560px;margin:0 auto 32px;font-size:1.05rem}
 .contact-cards{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:34px}
-.contact-card{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);border-radius:18px;padding:16px 24px;color:#fff;text-decoration:none;font-weight:700;display:flex;align-items:center;gap:10px;transition:background .2s}
+.contact-card{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);border-radius:18px;padding:16px 24px;color:#fff;text-decoration:none;font-weight:700;display:inline-flex;align-items:center;gap:10px;transition:background .2s}
 .contact-card:hover{background:rgba(255,255,255,.28)}
+.contact-card svg{width:20px;height:20px;fill:#fff}
 /* FOOTER */
 footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
 .foot-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px;margin-bottom:40px}
@@ -129,8 +131,9 @@ footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
 .foot-grid p{font-size:.94rem;opacity:.85}
 .foot-bottom{border-top:1px solid rgba(255,255,255,.14);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.85rem;opacity:.75}
 /* WA FLOAT */
-.wa-float{position:fixed;bottom:24px;right:24px;z-index:99;width:60px;height:60px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;font-size:1.8rem;box-shadow:0 10px 28px rgba(37,211,102,.5);text-decoration:none;transition:transform .2s}
+.wa-float{position:fixed;bottom:24px;right:24px;z-index:99;width:60px;height:60px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 28px rgba(37,211,102,.5);text-decoration:none;transition:transform .2s}
 .wa-float:hover{transform:scale(1.1)}
+.wa-float svg{width:30px;height:30px;fill:#fff}
 /* REVEAL */
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease}
 .reveal.visible{opacity:1;transform:none}
@@ -140,7 +143,13 @@ footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
   .hero{padding-top:120px}
   .hero-img{height:340px}
   .fc1{left:8px}.fc2{right:8px}
-  .features-grid,.testi-grid{grid-template-columns:1fr 1fr}
+  .edge-grid{grid-template-columns:1fr;gap:24px}
+  .edge-head{position:static}
+  .testi-grid{grid-template-columns:1fr 1fr}
+  .look-row{grid-template-columns:1fr}
+  .look-row.flip .look-img{order:0}
+  .look-img{height:260px}
+  .look-body{padding:32px 28px}
   .foot-grid{grid-template-columns:1fr 1fr}
 }
 @media(max-width:640px){
@@ -150,7 +159,7 @@ footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
   .nav-links a{display:block;padding:12px 0;border-bottom:1px dashed rgba(224,112,75,.15)}
   .nav-cta{display:none}
   .hamburger{display:block}
-  .features-grid,.testi-grid,.coll-grid{grid-template-columns:1fr}
+  .testi-grid{grid-template-columns:1fr}
   .hero-stats{gap:24px}
   .foot-grid{grid-template-columns:1fr}
 }
@@ -160,7 +169,7 @@ footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
 
 <nav id="navbar">
   <div class="container nav-inner">
-    <a class="logo" href="#beranda"><span class="dot">🧸</span> Si Kecil</a>
+    <a class="logo" href="#beranda"><span class="dot">S</span> Si Kecil</a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#tentang">Tentang Kami</a></li>
       <li><a href="#keunggulan">Keunggulan</a></li>
@@ -176,9 +185,9 @@ footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
 <header class="hero" id="beranda">
   <div class="container hero-grid">
     <div>
-      <span class="hero-badge">🧵 Brand Baju Anak Indonesia</span>
+      <span class="hero-badge">Brand Baju Anak Indonesia</span>
       <h1>Pakaian Nyaman untuk <span class="hl">Si Kecil</span> Tercinta</h1>
-      <p class="lead">Koleksi baju anak berkualitas premium — bahan lembut, aman untuk kulit sensitif, dan desain ceria yang bikin anak tampil percaya diri setiap hari.</p>
+      <p class="lead">Koleksi baju anak berkualitas premium: bahan lembut, aman untuk kulit sensitif, dan desain ceria yang bikin anak tampil percaya diri setiap hari.</p>
       <div class="hero-cta">
         <a href="#koleksi" class="btn btn-coral">Lihat Koleksi</a>
         <a href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!%20Saya%20tertarik%20dengan%20koleksi%20baju%20anaknya." class="btn btn-outline" target="_blank" rel="noopener">Chat WhatsApp</a>
@@ -191,8 +200,8 @@ footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
     </div>
     <div class="hero-img-wrap">
       <img fetchpriority="high" class="hero-img" src="assets/hero.jpg" alt="Anak-anak ceria memakai koleksi Si Kecil">
-      <div class="float-card fc1"><span class="ic">🌿</span> 100% Katun Premium</div>
-      <div class="float-card fc2"><span class="ic">⭐</span> 4.9/5 dari 2.300+ ulasan</div>
+      <div class="float-card fc1"><span class="tick">✓</span> 100% Katun Premium</div>
+      <div class="float-card fc2"><span class="stars">★★★★★</span> 4.9/5 dari 2.300+ ulasan</div>
     </div>
   </div>
 </header>
@@ -201,11 +210,10 @@ footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
   <div class="container about-grid">
     <div class="reveal"><img loading="lazy" decoding="async" class="about-img" src="assets/tentang.jpg" alt="Keceriaan anak-anak Indonesia"></div>
     <div class="reveal">
-      <span class="section-tag">Tentang Kami</span>
       <h2 class="section-title">Cerita di Balik Si Kecil</h2>
-      <p>Berawal dari kecintaan pada dunia anak, <b>Si Kecil</b> lahir pada tahun 2020 dengan satu misi sederhana: menghadirkan pakaian anak yang tidak hanya lucu dipandang, tapi juga nyaman dipakai seharian.</p>
-      <p>Kami percaya kulit anak yang sensitif deserve bahan terbaik. Setiap potong pakaian dirancang dengan teliti, dijahit dengan rapi, dan melewati quality control berlapis sebelum sampai ke tangan bunda.</p>
-      <p>Hari ini, Si Kecil telah dipercaya lebih dari <b>10.000 keluarga</b> di seluruh Indonesia — dari Sabang sampai Merauke.</p>
+      <p>Berawal dari kecintaan pada dunia anak, <b>Si Kecil</b> lahir pada tahun 2020 dengan satu misi sederhana: menghadirkan pakaian anak yang lucu dipandang sekaligus nyaman dipakai seharian.</p>
+      <p>Kami percaya kulit anak yang sensitif pantas mendapatkan bahan terbaik. Setiap potong pakaian dirancang dengan teliti, dijahit dengan rapi, dan melewati quality control berlapis sebelum sampai ke tangan bunda.</p>
+      <p>Hari ini, Si Kecil telah dipercaya lebih dari <b>10.000 keluarga</b> di seluruh Indonesia, dari Sabang sampai Merauke.</p>
       <ul class="check-list">
         <li><span class="ck">✓</span> Produksi lokal oleh penjahit berpengalaman Indonesia</li>
         <li><span class="ck">✓</span> Bahan tersertifikasi aman untuk kulit anak</li>
@@ -217,56 +225,58 @@ footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
 
 <section id="keunggulan">
   <div class="container">
-    <div class="reveal" style="text-align:center">
-      <span class="section-tag">Kenapa Si Kecil?</span>
-      <h2 class="section-title">Keunggulan Kami</h2>
-      <p class="section-sub" style="margin:0 auto">Enam alasan kenapa ribuan bunda mempercayakan pakaian si kecil kepada kami.</p>
-    </div>
-    <div class="features-grid">
-      <div class="feature reveal"><div class="fic">🌿</div><h3>Bahan Premium & Aman</h3><p>Katun combed 30s yang lembut, menyerap keringat, dan bebas bahan kimia berbahaya. Aman untuk kulit bayi sekalipun.</p></div>
-      <div class="feature reveal"><div class="fic">🎨</div><h3>Desain Eksklusif</h3><p>Dirancang tim desainer kami sendiri — motif lucu dan warna ceria yang tidak pasaran, update setiap musim.</p></div>
-      <div class="feature reveal"><div class="fic">🧵</div><h3>Jahitan Rapi & Kuat</h3><p>Setiap jahitan melewati quality control 3 tahap. Awet dicuci berkali-kali, nyaman tanpa gatal.</p></div>
-      <div class="feature reveal"><div class="fic">💰</div><h3>Harga Terjangkau</h3><p>Kualitas butik dengan harga bersahabat. Langsung dari produsen, tanpa perantara yang bikin mahal.</p></div>
-      <div class="feature reveal"><div class="fic">📏</div><h3>Size Lengkap 0–12 Tahun</h3><p>Tersedia dari newborn hingga anak 12 tahun, dengan panduan ukuran yang akurat anti salah pilih.</p></div>
-      <div class="feature reveal"><div class="fic">🚚</div><h3>Kirim ke Seluruh Indonesia</h3><p>Pengiriman cepat dan aman ke seluruh Indonesia, dengan packing rapi dan asuransi setiap paket.</p></div>
+    <div class="edge-grid">
+      <div class="edge-head reveal">
+        <h2 class="section-title">Kenapa Bunda Pilih Si Kecil?</h2>
+        <p class="section-sub">Enam hal yang bikin ribuan bunda balik lagi: dari bahan yang nempel di kulit anak sampai jahitan yang tahan dicuci berkali-kali.</p>
+        <a href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!%20Saya%20mau%20tanya%20tentang%20bahannya%20dulu." class="btn btn-outline" target="_blank" rel="noopener" style="margin-top:18px">Tanya Bahan Dulu</a>
+      </div>
+      <ol class="edge-list">
+        <li class="reveal"><span class="edge-num">01</span><div><h3>Bahan Premium dan Aman</h3><p>Katun combed 30s yang lembut, menyerap keringat, dan bebas bahan kimia berbahaya. Aman untuk kulit bayi sekalipun.</p></div></li>
+        <li class="reveal"><span class="edge-num">02</span><div><h3>Desain Eksklusif</h3><p>Dirancang tim desainer kami sendiri. Motif lucu dan warna ceria yang tidak pasaran, update setiap musim.</p></div></li>
+        <li class="reveal"><span class="edge-num">03</span><div><h3>Jahitan Rapi dan Kuat</h3><p>Setiap jahitan melewati quality control 3 tahap. Awet dicuci berkali-kali, nyaman tanpa gatal.</p></div></li>
+        <li class="reveal"><span class="edge-num">04</span><div><h3>Harga Terjangkau</h3><p>Kualitas butik dengan harga bersahabat. Langsung dari produsen, tanpa perantara yang bikin mahal.</p></div></li>
+        <li class="reveal"><span class="edge-num">05</span><div><h3>Size Lengkap 0 sampai 12 Tahun</h3><p>Tersedia dari newborn hingga anak 12 tahun, dengan panduan ukuran yang akurat anti salah pilih.</p></div></li>
+        <li class="reveal"><span class="edge-num">06</span><div><h3>Kirim ke Seluruh Indonesia</h3><p>Pengiriman cepat dan aman ke seluruh Indonesia, dengan packing rapi dan asuransi setiap paket.</p></div></li>
+      </ol>
     </div>
   </div>
 </section>
 
 <section class="collection" id="koleksi">
   <div class="container">
-    <div class="reveal" style="text-align:center">
-      <span class="section-tag">Koleksi Kami</span>
+    <div class="reveal" style="max-width:640px">
       <h2 class="section-title">Pilih Favorit Si Kecil</h2>
-      <p class="section-sub" style="margin:0 auto">Empat lini koleksi untuk setiap momen — dari main di rumah sampai acara spesial keluarga.</p>
+      <p class="section-sub">Empat lini koleksi untuk setiap momen, dari main di rumah sampai acara spesial keluarga.</p>
     </div>
-    <div class="coll-grid">
-      <div class="coll-card reveal">
-        <img loading="lazy" decoding="async" src="assets/koleksi-kasual.jpg" alt="Koleksi kasual harian">
-        <div class="coll-body"><span class="coll-tag">Best Seller</span><h3>Kasual Harian</h3><p>Kaos, kemeja, dan celana santai untuk aktivitas sehari-hari. Nyaman dipakai main seharian penuh.</p></div>
-      </div>
-      <div class="coll-card reveal">
-        <img loading="lazy" decoding="async" src="assets/koleksi-dress.jpg" alt="Koleksi dress dan gaun">
-        <div class="coll-body"><span class="coll-tag">Favorit Bunda</span><h3>Dress & Gaun</h3><p>Gaun cantik dengan detail manis untuk si putri kecil. Bahan adem, potongan anggun, foto-ready!</p></div>
-      </div>
-      <div class="coll-card reveal">
-        <img loading="lazy" decoding="async" src="assets/koleksi-pesta.jpg" alt="Koleksi pesta dan acara">
-        <div class="coll-body"><span class="coll-tag">Edisi Spesial</span><h3>Pesta & Acara</h3><p>Tampil memukau di acara keluarga — setelan rapi dan dress pesta dengan sentuhan elegan.</p></div>
-      </div>
-      <div class="coll-card reveal">
-        <img loading="lazy" decoding="async" src="assets/koleksi-bermain.jpg" alt="Koleksi set bermain">
-        <div class="coll-body"><span class="coll-tag">Baru</span><h3>Set Bermain</h3><p>Setelan playful warna-warni yang tahan banting untuk petualangan si kecil di luar rumah.</p></div>
-      </div>
+
+    <div class="look-row reveal">
+      <img loading="lazy" decoding="async" class="look-img" src="assets/koleksi-kasual.jpg" alt="Koleksi kasual harian">
+      <div class="look-body"><span class="look-tag">Best Seller</span><h3>Kasual Harian</h3><p>Kaos, kemeja, dan celana santai untuk aktivitas sehari-hari. Nyaman dipakai main seharian penuh.</p><a class="btn btn-coral btn-sm" href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!%20Saya%20mau%20tanya%20koleksi%20Kasual%20Harian." target="_blank" rel="noopener">Tanya Stok</a></div>
+    </div>
+
+    <div class="look-row flip reveal">
+      <img loading="lazy" decoding="async" class="look-img" src="assets/koleksi-dress.jpg" alt="Koleksi dress dan gaun">
+      <div class="look-body"><span class="look-tag">Favorit Bunda</span><h3>Dress dan Gaun</h3><p>Gaun cantik dengan detail manis untuk si putri kecil. Bahan adem, potongan anggun, siap difoto kapan saja.</p><a class="btn btn-coral btn-sm" href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!%20Saya%20mau%20tanya%20koleksi%20Dress." target="_blank" rel="noopener">Tanya Stok</a></div>
+    </div>
+
+    <div class="look-row reveal">
+      <img loading="lazy" decoding="async" class="look-img" src="assets/koleksi-pesta.jpg" alt="Koleksi pesta dan acara">
+      <div class="look-body"><span class="look-tag">Edisi Spesial</span><h3>Pesta dan Acara</h3><p>Tampil memukau di acara keluarga: setelan rapi dan dress pesta dengan sentuhan elegan.</p><a class="btn btn-coral btn-sm" href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!%20Saya%20mau%20tanya%20koleksi%20Pesta." target="_blank" rel="noopener">Tanya Stok</a></div>
+    </div>
+
+    <div class="look-row flip reveal">
+      <img loading="lazy" decoding="async" class="look-img" src="assets/koleksi-bermain.jpg" alt="Koleksi set bermain">
+      <div class="look-body"><span class="look-tag">Baru</span><h3>Set Bermain</h3><p>Setelan playful warna-warni yang tahan banting untuk petualangan si kecil di luar rumah.</p><a class="btn btn-coral btn-sm" href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!%20Saya%20mau%20tanya%20koleksi%20Set%20Bermain." target="_blank" rel="noopener">Tanya Stok</a></div>
     </div>
   </div>
 </section>
 
 <section id="testimoni">
   <div class="container">
-    <div class="reveal" style="text-align:center">
-      <span class="section-tag">Kata Mereka</span>
-      <h2 class="section-title">Testimoni Bunda</h2>
-      <p class="section-sub" style="margin:0 auto">Cerita jujur dari para bunda yang sudah mempercayakan pakaian si kecil kepada kami.</p>
+    <div class="reveal" style="max-width:640px">
+      <h2 class="section-title">Kata Para Bunda</h2>
+      <p class="section-sub">Cerita jujur dari bunda yang sudah mempercayakan pakaian si kecil kepada kami.</p>
     </div>
     <div class="testi-grid">
       <div class="testi reveal">
@@ -289,22 +299,22 @@ footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
 </section>
 
 <div class="contact reveal" id="kontak">
-  <h2>Yuk, Kenalan Lebih Dekat! 👋</h2>
-  <p>Tanya-tanya koleksi, cek size, atau order — tim kami siap membantu bunda dengan ramah setiap hari.</p>
+  <h2>Yuk, Kenalan Lebih Dekat!</h2>
+  <p>Tanya-tanya koleksi, cek size, atau order. Tim kami siap membantu bunda dengan ramah setiap hari.</p>
   <div class="contact-cards">
-    <a class="contact-card" href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!%20Saya%20tertarik%20dengan%20koleksi%20baju%20anaknya." target="_blank" rel="noopener">💬 WhatsApp</a>
-    <a class="contact-card" href="https://instagram.com/sikecil.id" target="_blank" rel="noopener">📸 @sikecil.id</a>
-    <a class="contact-card" href="mailto:halo@sikecil.id">✉️ halo@sikecil.id</a>
+    <a class="contact-card" href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!%20Saya%20tertarik%20dengan%20koleksi%20baju%20anaknya." target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.6-1.3 1.2-1.9 1.3-.5.1-1.1.1-1.7-.1-.4-.1-1-.3-1.6-.6-2.8-1.2-4.7-4-4.8-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.5.5c-.2.2-.3.4-.1.7.2.3.9 1.5 2 2.4 1.4 1.2 2.5 1.5 2.9 1.7.3.2.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.3 0 .1 0 .6-.2 1.2z"/></svg>WhatsApp</a>
+    <a class="contact-card" href="https://instagram.com/sikecil.id" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.9.1-3.2 0-3.6 0-4.8-.1-3.3-.1-4.8-1.7-4.9-4.9-.1-1.3-.1-1.6-.1-4.8s0-3.6.1-4.8C2.4 4 4 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-9.6a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg>@sikecil.id</a>
+    <a class="contact-card" href="mailto:halo@sikecil.id"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>halo@sikecil.id</a>
   </div>
-  <a href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!%20Saya%20tertarik%20dengan%20koleksi%20baju%20anaknya." class="btn btn-wa" target="_blank" rel="noopener">Chat Sekarang — Gratis! 💬</a>
+  <a href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!%20Saya%20tertarik%20dengan%20koleksi%20baju%20anaknya." class="btn btn-wa" target="_blank" rel="noopener">Chat Sekarang, Gratis!</a>
 </div>
 
 <footer>
   <div class="container">
     <div class="foot-grid">
       <div>
-        <div class="foot-logo">🧸 Si Kecil</div>
-        <p>Brand baju anak Indonesia — pakaian nyaman, aman, dan ceria untuk si kecil tercinta sejak 2020.</p>
+        <div class="foot-logo">Si Kecil</div>
+        <p>Brand baju anak Indonesia. Pakaian nyaman, aman, dan ceria untuk si kecil tercinta sejak 2020.</p>
       </div>
       <div>
         <h4>Jelajahi</h4>
@@ -328,7 +338,7 @@ footer{background:var(--ink);color:#EAD9CE;padding:56px 0 28px}
   </div>
 </footer>
 
-<a class="wa-float" href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!" target="_blank" rel="noopener" aria-label="Chat WhatsApp">💬</a>
+<a class="wa-float" href="https://wa.me/6281234567890?text=Halo%20Si%20Kecil!" target="_blank" rel="noopener" aria-label="Chat WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.6-1.3 1.2-1.9 1.3-.5.1-1.1.1-1.7-.1-.4-.1-1-.3-1.6-.6-2.8-1.2-4.7-4-4.8-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.5.5c-.2.2-.3.4-.1.7.2.3.9 1.5 2 2.4 1.4 1.2 2.5 1.5 2.9 1.7.3.2.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.3 0 .1 0 .6-.2 1.2z"/></svg></a>
 
 <script>
 const nav = document.getElementById('navbar');
